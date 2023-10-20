@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/ExplicaSubstant.unity
+    guid: 3f23bc4594e8b884a8489887f8490668
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: af54aa34c8afdaa42b2b7d46d6ab579c, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: b25a9546f2c0b4d409077811dd8782a7, type: 2}
