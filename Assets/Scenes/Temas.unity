@@ -226,7 +226,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.000015, y: 398}
+  m_AnchoredPosition: {x: -8.000015, y: 337.99997}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &328112055
@@ -346,7 +346,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -281, y: 801}
+  m_AnchoredPosition: {x: -281, y: 741}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &461213673
@@ -392,7 +392,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 461213674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &461213674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -558,7 +570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269, y: 18}
+  m_AnchoredPosition: {x: 269, y: -42.00002}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &531365458
@@ -677,7 +689,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.711, y: -278}
+  m_AnchoredPosition: {x: -27.711, y: -338.00003}
   m_SizeDelta: {x: 219.905, y: 19.189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563907375
@@ -700,7 +712,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Selecione um n\xEDvel."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -812,7 +824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.000015, y: 801}
+  m_AnchoredPosition: {x: -8.000015, y: 741}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573466452
@@ -858,7 +870,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 573466453}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &573466453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -932,7 +956,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -281, y: 398}
+  m_AnchoredPosition: {x: -281, y: 337.99997}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &970507128
@@ -978,7 +1002,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 970507129}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &970507129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1165,7 +1201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 273, y: 801}
+  m_AnchoredPosition: {x: 273, y: 741}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1275124827
@@ -1211,7 +1247,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1275124828}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1275124828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1285,7 +1333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8.000015, y: 18}
+  m_AnchoredPosition: {x: -8.000015, y: -42.00002}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294793226
@@ -1405,7 +1453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 273, y: 398}
+  m_AnchoredPosition: {x: 273, y: 337.99997}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394064123
@@ -1548,8 +1596,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   btnFase: {fileID: 573466452}
-  btnPlay: {fileID: 0}
-  txtNomeDoTema: {fileID: 0}
+  btnPlay: {fileID: 1651856326}
+  txtNomeDoTema: {fileID: 563907375}
+  temaAtual:
+  - "Selecione um n\xEDvel."
+  - "O que \xE9 um substantivo?"
+  - Substantivos coletivos
+  - "Substantivos comuns e pr\xF3prios"
+  - Substantivos concretos e abstratos
+  - Substantivos primitivos e derivados
+  - Substantivos simples e compostos
+  - "Flex\xF5es de substantivos : g\xEAnero"
+  - "Flex\xF5es de substantivos : grau"
+  - "Flex\xF5es de substantivos : n\xFAmero"
 --- !u!1 &1651856324
 GameObject:
   m_ObjectHideFlags: 0
@@ -1578,14 +1637,14 @@ RectTransform:
   m_GameObject: {fileID: 1651856324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1583908, y: 10.538342, z: 2.1583908}
+  m_LocalScale: {x: 2.7115862, y: 13.23932, z: 2.7115862}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1085875471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.711, y: -518.57}
+  m_AnchoredPosition: {x: -27.711, y: -653}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651856326
@@ -1837,7 +1896,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -281, y: 18}
+  m_AnchoredPosition: {x: -281, y: -42.00002}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1883291043

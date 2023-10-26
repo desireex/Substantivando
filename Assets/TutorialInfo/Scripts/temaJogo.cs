@@ -2,21 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class temaJogo : MonoBehaviour
 {
     public Button btnFase;
     public Button btnPlay;
-    public Text txtNomeDoTema;
+    public TMP_Text txtNomeDoTema;
+    public string[] temaAtual;
+    private int indexTema;
 
     void Start()
     {
-        
+        btnPlay.interactable = false;       
+        indexTema = 0;
+        txtNomeDoTema.text = temaAtual[indexTema];
     }
 
-    // Update is called once per frame
-    void Update()
+    public void selecioneTema(int i)
     {
-        
+        indexTema = i;
+        txtNomeDoTema.text = temaAtual[indexTema];
+        btnPlay.interactable = true;
     }
+    
 }
