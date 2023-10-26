@@ -291,7 +291,9 @@ RectTransform:
   - {fileID: 1055912431}
   - {fileID: 472666030}
   - {fileID: 1315496439}
-  - {fileID: 1115255495}
+  - {fileID: 1892875522}
+  - {fileID: 1811605085}
+  - {fileID: 854050493}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -683,15 +685,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854050492}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.055084568}
-  m_LocalScale: {x: 0.008145616, y: 0.008145616, z: 0.008145616}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1115255495}
+  m_Father: {fileID: 243633310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.28362364, y: -2.8365479}
+  m_AnchoredPosition: {x: 6.5831285, y: 39.24666}
   m_SizeDelta: {x: 560, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &854050494
@@ -738,10 +740,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1115255496}
+      - m_Target: {fileID: 1699676580}
         m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
-        m_MethodName: Play
-        m_Mode: 1
+        m_MethodName: MudaTela
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -884,53 +886,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1115255494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1115255495}
-  - component: {fileID: 1115255496}
-  m_Layer: 0
-  m_Name: MainMenuUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1115255495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115255494}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 34.819176, y: 136.23134, z: -6.76248}
-  m_LocalScale: {x: 122.76542, y: 122.76542, z: 122.76542}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 854050493}
-  - {fileID: 1892875522}
-  - {fileID: 1811605085}
-  m_Father: {fileID: 243633310}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1115255496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1115255494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45b6db6a0c325a842b1036d13f656266, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1315496438
 GameObject:
   m_ObjectHideFlags: 0
@@ -1015,6 +970,50 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1699676579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1699676581}
+  - component: {fileID: 1699676580}
+  m_Layer: 0
+  m_Name: GC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1699676580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699676579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45b6db6a0c325a842b1036d13f656266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1699676581
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699676579}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.122090206, y: 0.1528775, z: -0.027999043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1811605084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,15 +1041,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1811605084}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.055084568}
-  m_LocalScale: {x: 0.008145616, y: 0.008145616, z: 0.008145616}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1115255495}
+  m_Father: {fileID: 243633310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.23, y: -0.79}
+  m_AnchoredPosition: {x: 0, y: -211.99867}
   m_SizeDelta: {x: 560, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1811605086
@@ -1097,7 +1096,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1115255496}
+      - m_Target: {fileID: 1699676580}
         m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
         m_MethodName: MudaTela
         m_Mode: 5
@@ -1129,7 +1128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 681a350813f0a8c4bb7aba90e3c045e5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d2d8602c5d0353b489d906e0eb97e4a5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1174,15 +1173,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892875521}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.055084568}
-  m_LocalScale: {x: 0.008145616, y: 0.008145616, z: 0.008145616}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1115255495}
+  m_Father: {fileID: 243633310}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.28362364, y: 1.2362671}
+  m_AnchoredPosition: {x: 0, y: 288.0022}
   m_SizeDelta: {x: 560, y: 215}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1892875523
@@ -1229,7 +1228,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1115255496}
+      - m_Target: {fileID: 1699676580}
         m_TargetAssemblyTypeName: MainMenuUI, Assembly-CSharp
         m_MethodName: MudaTela
         m_Mode: 5
@@ -1370,3 +1369,4 @@ SceneRoots:
   - {fileID: 243633310}
   - {fileID: 240884154}
   - {fileID: 2141192323}
+  - {fileID: 1699676581}
