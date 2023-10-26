@@ -272,7 +272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 328112056}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &328112056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -616,7 +628,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 531365459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &531365459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -689,8 +713,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.711, y: -338.00003}
-  m_SizeDelta: {x: 219.905, y: 19.189}
+  m_AnchoredPosition: {x: 2.26, y: -305}
+  m_SizeDelta: {x: 206.46, y: 22.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &563907375
 MonoBehaviour:
@@ -1379,7 +1403,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1294793227}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1294793227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1499,7 +1535,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1394064124}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1394064124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1637,14 +1685,14 @@ RectTransform:
   m_GameObject: {fileID: 1651856324}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.7115862, y: 13.23932, z: 2.7115862}
+  m_LocalScale: {x: 2.471909, y: 12.069097, z: 2.471909}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1085875471}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -27.711, y: -653}
+  m_AnchoredPosition: {x: -8.000015, y: -653}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1651856326
@@ -1690,7 +1738,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1651856327}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: Jogar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1651856327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1942,7 +2002,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1883291044}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1522293486}
+        m_TargetAssemblyTypeName: temaJogo, Assembly-CSharp
+        m_MethodName: selecioneTema
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1883291044
 MonoBehaviour:
   m_ObjectHideFlags: 0

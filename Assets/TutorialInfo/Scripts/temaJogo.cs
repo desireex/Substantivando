@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class temaJogo : MonoBehaviour
 {
@@ -25,5 +26,9 @@ public class temaJogo : MonoBehaviour
         txtNomeDoTema.text = temaAtual[indexTema];
         btnPlay.interactable = true;
     }
-    
+
+    public void Jogar(){
+        SceneManager.LoadScene("Explica" + indexTema.ToString());
+    }   
+
 }
