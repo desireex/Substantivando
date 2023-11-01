@@ -439,7 +439,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'correr
+  m_text: '
 
 '
   m_isRightToLeft: 0
@@ -709,7 +709,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "voc\xEA"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: banana
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1210,15 +1210,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pergunta: {fileID: 2133727031}
-  respostaA: {fileID: 0}
-  respostaB: {fileID: 0}
-  respostaC: {fileID: 0}
-  respostaD: {fileID: 0}
-  perguntas: []
-  alternativaA: []
-  alternativaB: []
-  alternativaC: []
-  alternativaD: []
+  respostaA: {fileID: 356834956}
+  respostaB: {fileID: 521440440}
+  respostaC: {fileID: 1278025910}
+  respostaD: {fileID: 419590991}
+  perguntas:
+  - "Qual dessas palavras \xE9 um substantivo?"
+  alternativaA:
+  - correr
+  alternativaB:
+  - banana
+  alternativaC:
+  - quatro
+  alternativaD:
+  - "voc\xEA"
 --- !u!4 &936475062
 Transform:
   m_ObjectHideFlags: 0
@@ -2120,7 +2125,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: quatro
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3097,7 +3102,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Qual dessas palavras \xE9 um substantivo?"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
