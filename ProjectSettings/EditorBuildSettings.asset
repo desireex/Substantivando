@@ -12,6 +12,30 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 335cb0977d470c34092647a17372b724
   - enabled: 1
+    path: Assets/Scenes/Explica2.unity
+    guid: 2ca5738340e1eff409fe2ad0ec7909f1
+  - enabled: 1
+    path: Assets/Scenes/Explica3.unity
+    guid: 7ce57aa1272de9e448adfb660fce4803
+  - enabled: 1
+    path: Assets/Scenes/Explica4.unity
+    guid: 3304c7b3e0485d14faf855d800332b76
+  - enabled: 1
+    path: Assets/Scenes/Explica5.unity
+    guid: b517747e576ce7c46983133d09e1ce3f
+  - enabled: 1
+    path: Assets/Scenes/Explica6.unity
+    guid: 2c1acab5d142b0049a0ef6cab8c37121
+  - enabled: 1
+    path: Assets/Scenes/Explica7.unity
+    guid: fa7bad1d5d2547a4189a6f71597aa6ae
+  - enabled: 1
+    path: Assets/Scenes/Explica8.unity
+    guid: b67f9978900071640b7c689baecd1b99
+  - enabled: 1
+    path: Assets/Scenes/Explica9.unity
+    guid: d089d774e8b690d4694150b3b63b90c6
+  - enabled: 1
     path: Assets/Scenes/Temas.unity
     guid: 402c8a435eb4fd04199d88c2cd10fba5
   - enabled: 1

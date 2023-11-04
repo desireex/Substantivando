@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using TMPro;
 public class responder : MonoBehaviour
 {
-    public Button btnproximo;
 
     public GameObject acerto;
     public GameObject erro;
@@ -22,6 +21,7 @@ public class responder : MonoBehaviour
     public Button btnLetraB;
     public Button btnLetraC;
     public Button btnLetraD;
+    public Button btnproximo;
 
     public int idTema;
     public TMP_Text pergunta;
@@ -48,17 +48,21 @@ public class responder : MonoBehaviour
     private int idPergunta;
     private int acertos;
     private int questoes;
+
+    private bool jaRespondeu = false;
+
     void Start()
     {
         idPergunta = 0;
         questoes = perguntas.Length;
+        btnproximo.gameObject.SetActive(false);
         pergunta.text = perguntas[idPergunta];
-        respostaA.text = alternativaA[idPergunta];
-        respostaB.text = alternativaB[idPergunta];
+        respostaA.text = alternativaA[idPergunta]; //alternativas são os textos das perguntas
+        respostaB.text = alternativaB[idPergunta]; 
         respostaC.text = alternativaC[idPergunta];
         respostaD.text = alternativaD[idPergunta];  
         
-        txtLetraAresp.text = null;
+        txtLetraAresp.text = null; 
         txtLetraBresp.text = null;
         txtLetraCresp.text = null;
         txtLetraDresp.text = null;
@@ -66,6 +70,23 @@ public class responder : MonoBehaviour
         alegoriaDaPergunta = alegoriaPergunta[idPergunta];
         alegoriaDoAcerto = alegoriaAcerto[idPergunta];
         alegoriaDoErro = alegoriaErro[idPergunta];
+
+    }
+    public void AposResposta(string alternativa)
+    {
+        if (jaRespondeu)
+        {
+            return; // sai da função sem executar o bloco se ja tiver havido resposta
+        }
+
+        jaRespondeu = true; 
+
+        
+        btnLetraA.interactable = false;
+        btnLetraB.interactable = false;
+        btnLetraC.interactable = false;
+        btnLetraD.interactable = false;
+        btnproximo.gameObject.SetActive(true);
     }
     public void resposta(string alternativa){
         Debug.Log(alternativa);
@@ -75,8 +96,8 @@ public class responder : MonoBehaviour
             case "A":
                 if(alternativaA[idPergunta] == corretas[idPergunta]){
                     acertos += 1;
-                    acerto.transform.SetParent(btnLetraA.transform, false);
-                    acerto.SetActive(true);
+                    acerto.transform.SetParent(btnLetraA.transform, false); // transforma momentaneamente o acerto filho do btnA, o parâmetro false indica que o acerto vai se mover a partir de agora junto com btnA
+                    acerto.SetActive(true);                                 
                     alegoriaDoAcerto.SetActive(true);
                     Debug.Log("acerto");
                 }
@@ -138,4 +159,5 @@ public class responder : MonoBehaviour
                 break;
         }
     }
+    
 }

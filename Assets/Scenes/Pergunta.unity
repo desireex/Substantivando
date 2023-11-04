@@ -1300,7 +1300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f30ba6b1a13c9c6499a7009ae0c3b590, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  btnproximo: {fileID: 528079805}
   acerto: {fileID: 1569384974}
   erro: {fileID: 1376379120}
   alegoriaDaPergunta: {fileID: 1690651661}
@@ -1314,6 +1313,7 @@ MonoBehaviour:
   btnLetraB: {fileID: 955101941}
   btnLetraC: {fileID: 2065462586}
   btnLetraD: {fileID: 1287403277}
+  btnproximo: {fileID: 528079805}
   idTema: 0
   pergunta: {fileID: 2133727031}
   respostaA: {fileID: 356834956}
@@ -1449,6 +1449,18 @@ MonoBehaviour:
       - m_Target: {fileID: 936475061}
         m_TargetAssemblyTypeName: responder, Assembly-CSharp
         m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: B
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 936475061}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: AposResposta
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2263,6 +2275,18 @@ MonoBehaviour:
           m_StringArgument: D
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 936475061}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: AposResposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: D
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1287403278
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2473,6 +2497,18 @@ MonoBehaviour:
       - m_Target: {fileID: 936475061}
         m_TargetAssemblyTypeName: responder, Assembly-CSharp
         m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: A
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 936475061}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: AposResposta
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2994,6 +3030,18 @@ MonoBehaviour:
       - m_Target: {fileID: 936475061}
         m_TargetAssemblyTypeName: responder, Assembly-CSharp
         m_MethodName: resposta
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: C
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 936475061}
+        m_TargetAssemblyTypeName: responder, Assembly-CSharp
+        m_MethodName: AposResposta
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
