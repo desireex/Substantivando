@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 public class responder : MonoBehaviour
 {
@@ -55,6 +56,8 @@ public class responder : MonoBehaviour
     {
         idPergunta = 0;
         questoes = perguntas.Length;
+        btnproximo.onClick = new Button.ButtonClickedEvent();
+        btnproximo.onClick.AddListener(Controlabtnproximo);
         btnproximo.gameObject.SetActive(false);
         pergunta.text = perguntas[idPergunta];
         respostaA.text = alternativaA[idPergunta]; //alternativas são os textos das perguntas
@@ -71,6 +74,46 @@ public class responder : MonoBehaviour
         alegoriaDoAcerto = alegoriaAcerto[idPergunta];
         alegoriaDoErro = alegoriaErro[idPergunta];
 
+        alegoriaDaPergunta.SetActive(true);
+        alegoriaDoAcerto.SetActive(false);
+        alegoriaDoErro.SetActive(false);
+
+    }
+    void Controlabtnproximo()
+    {
+        idPergunta++;
+        if(idPergunta >= questoes)
+        {
+            SceneManager.LoadScene("FimDoTema");
+        }
+        else
+        {
+            btnproximo.gameObject.SetActive(false);
+            pergunta.text = perguntas[idPergunta];
+            respostaA.text = alternativaA[idPergunta]; //alternativas são os textos das perguntas
+            respostaB.text = alternativaB[idPergunta];
+            respostaC.text = alternativaC[idPergunta];
+            respostaD.text = alternativaD[idPergunta];
+
+            txtLetraAresp.text = null;
+            txtLetraBresp.text = null;
+            txtLetraCresp.text = null;
+            txtLetraDresp.text = null;
+
+            alegoriaDaPergunta = alegoriaPergunta[idPergunta];
+            alegoriaDoAcerto = alegoriaAcerto[idPergunta];
+            alegoriaDoErro = alegoriaErro[idPergunta];
+
+            alegoriaDaPergunta.SetActive(true);
+            alegoriaDoAcerto.SetActive(false);
+            alegoriaDoErro.SetActive(false);
+
+            btnLetraA.interactable = true;
+            btnLetraB.interactable = true;
+            btnLetraC.interactable = true;
+            btnLetraD.interactable = true;
+            jaRespondeu = false;
+        }
     }
     public void AposResposta(string alternativa)
     {
