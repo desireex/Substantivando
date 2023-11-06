@@ -90,6 +90,10 @@ public class responder : MonoBehaviour
         {
             btnproximo.gameObject.SetActive(false);
             pergunta.text = perguntas[idPergunta];
+
+            acerto.SetActive(false);
+            erro.SetActive(false);
+
             respostaA.text = alternativaA[idPergunta]; //alternativas são os textos das perguntas
             respostaB.text = alternativaB[idPergunta];
             respostaC.text = alternativaC[idPergunta];
@@ -99,6 +103,10 @@ public class responder : MonoBehaviour
             txtLetraBresp.text = null;
             txtLetraCresp.text = null;
             txtLetraDresp.text = null;
+
+            alegoriaDaPergunta.SetActive(false);
+            alegoriaDoAcerto.SetActive(false);
+            alegoriaDoErro.SetActive(false);
 
             alegoriaDaPergunta = alegoriaPergunta[idPergunta];
             alegoriaDoAcerto = alegoriaAcerto[idPergunta];

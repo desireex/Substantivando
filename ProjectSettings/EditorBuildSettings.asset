@@ -42,7 +42,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Explica1.unity
     guid: 3f23bc4594e8b884a8489887f8490668
   - enabled: 1
-    path: Assets/Scenes/Pergunta.unity
+    path: Assets/Scenes/Pergunta1.unity
     guid: ebf719fed4102c34f9aa98005b8cbcf9
   - enabled: 1
     path: Assets/Scenes/FimDoTema.unity
