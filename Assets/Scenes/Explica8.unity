@@ -778,7 +778,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &281575368
 RectTransform:
   m_ObjectHideFlags: 0
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 322211540}
   - component: {fileID: 322211539}
   m_Layer: 5
-  m_Name: txtGenero
+  m_Name: txtGenero8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1351,7 +1351,7 @@ GameObject:
   - component: {fileID: 466880389}
   - component: {fileID: 466880388}
   m_Layer: 5
-  m_Name: txtNum
+  m_Name: txtNum8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3143,7 +3143,7 @@ GameObject:
   - component: {fileID: 1117568788}
   - component: {fileID: 1117568787}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Title8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3693,7 +3693,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1363826239}
   m_Layer: 5
-  m_Name: PrimeiraTela
+  m_Name: PrimeiraTela2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4658,7 +4658,7 @@ GameObject:
   - component: {fileID: 1861590193}
   - component: {fileID: 1861590192}
   m_Layer: 5
-  m_Name: txtGrau
+  m_Name: txtGrau8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5023,7 +5023,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2031848613
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5538,7 +5538,7 @@ GameObject:
   - component: {fileID: 2132520031}
   - component: {fileID: 2132520030}
   m_Layer: 5
-  m_Name: Explicacao
+  m_Name: Explicacao8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
