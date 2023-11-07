@@ -758,8 +758,8 @@ MonoBehaviour:
   m_text: "Este jogo ir\xE1 te ajudar a conhecer um pouco mais sobre essa classe
     gramatical.\n\n\nVamos l\xE1?\n\n\n\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4451442fe7f02e84d9ce881dffe76426, type: 2}
+  m_sharedMaterial: {fileID: -8356449350558288892, guid: 4451442fe7f02e84d9ce881dffe76426, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
