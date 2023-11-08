@@ -1667,7 +1667,7 @@ MonoBehaviour:
   telasDoJogo:
   - {fileID: 58174920}
   - {fileID: 889248058}
-  cenaPergunta: Pergunta
+  cenaPergunta: Pergunta6
   cenaTemas: Temas
 --- !u!1 &1446393102
 GameObject:

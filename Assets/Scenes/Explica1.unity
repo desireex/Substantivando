@@ -895,7 +895,7 @@ MonoBehaviour:
   SegundaExplicacao:
   - {fileID: 1055852973}
   - {fileID: 1381977397}
-  cenaPergunta: Pergunta
+  cenaPergunta: Pergunta1
   cenaTemas: Temas
   btnProximo: {fileID: 754418026}
   btnVoltar: {fileID: 99068805}

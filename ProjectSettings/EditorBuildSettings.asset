@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Scenes/TelaInicial.unity
     guid: 3fc8acdd13e6c734bafef6554d6fdbcd
   - enabled: 1
+    path: Assets/Scenes/Pergunta2.unity
+    guid: 9cf85bb815f846f46ab996db6f6da3e7
+  - enabled: 1
+    path: Assets/Scenes/Pergunta4.unity
+    guid: 113334a50cd1b6f45a5b5343d82f7fc4
+  - enabled: 1
+    path: Assets/Scenes/Pergunta5.unity
+    guid: 19f27248263bfb142836ac847b163d01
+  - enabled: 1
+    path: Assets/Scenes/Pergunta6.unity
+    guid: 6c81f56255657f34792f38cdbf8cf42d
+  - enabled: 1
+    path: Assets/Scenes/Pergunta8.unity
+    guid: d86242b38cafb8e40b06b22092bdf768
+  - enabled: 1
     path: Assets/Scenes/MenuPrincipal.unity
     guid: 335cb0977d470c34092647a17372b724
   - enabled: 1
@@ -44,6 +59,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Temas.unity
     guid: 402c8a435eb4fd04199d88c2cd10fba5
+  - enabled: 1
+    path: Assets/Scenes/Pergunta9.unity
+    guid: f5be946f223f00a40b418a52475a164f
   - enabled: 1
     path: Assets/Scenes/Explica1.unity
     guid: 3f23bc4594e8b884a8489887f8490668

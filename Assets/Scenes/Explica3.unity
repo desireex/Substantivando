@@ -1487,7 +1487,7 @@ MonoBehaviour:
   - {fileID: 915381104}
   - {fileID: 1467502695}
   - {fileID: 1256587147}
-  cenaPergunta: Pergunta
+  cenaPergunta: Pergunta3
   cenaTemas: Temas
   btnProximo: {fileID: 754418026}
   btnVoltar: {fileID: 99068805}
