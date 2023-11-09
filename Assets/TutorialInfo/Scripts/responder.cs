@@ -24,7 +24,7 @@ public class responder : MonoBehaviour
     public Button btnLetraD;
     public Button btnproximo;
 
-    public int idTema;
+    private int idTema;
     public TMP_Text pergunta;
     public TMP_Text respostaA;
     public TMP_Text respostaB;
@@ -54,6 +54,8 @@ public class responder : MonoBehaviour
 
     void Start()
     {
+        idTema = PlayerPrefs.GetInt("idTema");
+
         idPergunta = 0;
         questoes = perguntas.Length;
         btnproximo.onClick = new Button.ButtonClickedEvent();
@@ -84,6 +86,11 @@ public class responder : MonoBehaviour
         idPergunta++;
         if(idPergunta >= questoes)
         {
+            if(acertos > PlayerPrefs.GetInt("acertos"+idTema.ToString()))
+            {
+                PlayerPrefs.SetInt("acertos"+idTema.ToString(), acertos);
+            }
+            PlayerPrefs.SetInt("acertosTemp", acertos);
             SceneManager.LoadScene("FimDoTema");
         }
         else

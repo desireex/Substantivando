@@ -23,6 +23,7 @@ public class temaJogo : MonoBehaviour
     public void selecioneTema(int i)
     {
         indexTema = i;
+        PlayerPrefs.SetInt("idTema", indexTema);
         txtNomeDoTema.text = temaAtual[indexTema];
         btnPlay.interactable = true;
     }
