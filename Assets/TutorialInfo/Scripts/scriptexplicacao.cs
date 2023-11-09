@@ -47,8 +47,8 @@ public class scriptexplicacao : MonoBehaviour
     }
     void ControlaBotaoProx()
     {
+        contaClicks++;
         if (contaClicks < numeroDeTelas) {
-            contaClicks++;
             AtivaObjetos();
             DesativaObjetos(-1);
         }
