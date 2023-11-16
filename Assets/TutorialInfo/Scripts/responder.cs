@@ -9,7 +9,7 @@ public class responder : MonoBehaviour
 
     public GameObject acerto;
     public GameObject erro;
-    public GameObject alegoriaDaPergunta;
+    public GameObject alegoriaDaPergunta; 
     public GameObject alegoriaDoAcerto;
     public GameObject alegoriaDoErro;
 
@@ -17,7 +17,6 @@ public class responder : MonoBehaviour
     public TMP_Text txtLetraBresp;
     public TMP_Text txtLetraCresp;
     public TMP_Text txtLetraDresp;
-
     public Button btnLetraA;
     public Button btnLetraB;
     public Button btnLetraC;
