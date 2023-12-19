@@ -14,9 +14,6 @@ public class responder : MonoBehaviour
     public GameObject alegoriaDoErro;
 
     public TMP_Text txtLetraAresp;
-    public TMP_Text txtLetraBresp;
-    public TMP_Text txtLetraCresp;
-    public TMP_Text txtLetraDresp;
     public Button btnLetraA;
     public Button btnLetraB;
     public Button btnLetraC;
@@ -67,9 +64,6 @@ public class responder : MonoBehaviour
         respostaD.text = alternativaD[idPergunta];  
         
         txtLetraAresp.text = null; 
-        txtLetraBresp.text = null;
-        txtLetraCresp.text = null;
-        txtLetraDresp.text = null;
 
         alegoriaDaPergunta = alegoriaPergunta[idPergunta];
         alegoriaDoAcerto = alegoriaAcerto[idPergunta];
@@ -106,9 +100,6 @@ public class responder : MonoBehaviour
             respostaD.text = alternativaD[idPergunta];
 
             txtLetraAresp.text = null;
-            txtLetraBresp.text = null;
-            txtLetraCresp.text = null;
-            txtLetraDresp.text = null;
 
             alegoriaDaPergunta.SetActive(false);
             alegoriaDoAcerto.SetActive(false);
@@ -180,7 +171,7 @@ public class responder : MonoBehaviour
                     erro.SetActive(true);
                     alegoriaDoErro.SetActive(true);
                 }
-                txtLetraBresp.text = txtLetraBSelecionada[idPergunta];
+                txtLetraAresp.text = txtLetraBSelecionada[idPergunta];
                 break;
             case "C":
                 if(alternativaC[idPergunta] == corretas[idPergunta]){
@@ -196,7 +187,7 @@ public class responder : MonoBehaviour
                     erro.SetActive(true);
                     alegoriaDoErro.SetActive(true);
                 }
-                txtLetraCresp.text = txtLetraCSelecionada[idPergunta];
+                txtLetraAresp.text = txtLetraCSelecionada[idPergunta];
                 break;
             case "D":
                 if(alternativaD[idPergunta] == corretas[idPergunta]){
@@ -212,7 +203,7 @@ public class responder : MonoBehaviour
                     erro.SetActive(true);
                     alegoriaDoErro.SetActive(true);
                 }
-                txtLetraDresp.text = txtLetraDSelecionada[idPergunta];
+                txtLetraAresp.text = txtLetraDSelecionada[idPergunta];
                 break;
         }
     }
