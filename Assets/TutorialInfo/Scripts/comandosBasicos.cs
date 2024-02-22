@@ -17,5 +17,9 @@ public class MainMenuUI : MonoBehaviour{
     public void MudaTela(string nomecena){
         SceneManager.LoadScene(nomecena);
     }
+    public void SairDoJogo()
+    {
+        Debug.Log("saiu");
+        Application.Quit();
+    }
 }
-//
