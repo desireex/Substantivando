@@ -85,7 +85,7 @@ public class responder : MonoBehaviour
             }
             PlayerPrefs.SetInt("acertosTemp", acertos);
             SceneManager.LoadScene("FimDoTema");
-            PlayerPrefs.SetInt("numQuestoes", questoes);
+            PlayerPrefs.SetInt("numQuestoes" + idTema.ToString(), questoes);
         }
         else
         {

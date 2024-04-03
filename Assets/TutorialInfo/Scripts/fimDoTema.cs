@@ -8,10 +8,12 @@ public class fimDoTema : MonoBehaviour
     private int numQuestoes;
     private int acertos;
     public TMP_Text txtacertos;
+    private int idTema;
 
     void Start()
     {
-        numQuestoes = PlayerPrefs.GetInt("numQuestoes");
+        idTema = PlayerPrefs.GetInt("idTema");
+        numQuestoes = PlayerPrefs.GetInt("numQuestoes" + idTema.ToString());
         acertos = PlayerPrefs.GetInt("acertosTemp");
         txtacertos.text = "Você acertou "+ acertos.ToString()+" de "+ numQuestoes.ToString()+" perguntas!";
     }

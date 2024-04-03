@@ -10,6 +10,7 @@ public class temaJogo : MonoBehaviour
     public Button btnFase;
     public Button btnPlay;
     public TMP_Text txtNomeDoTema;
+    public TMP_Text txtAcertos;
     public string[] temaAtual;
     private int indexTema;
 
@@ -18,12 +19,16 @@ public class temaJogo : MonoBehaviour
         btnPlay.interactable = false;       
         indexTema = 0;
         txtNomeDoTema.text = temaAtual[indexTema];
+        txtAcertos.gameObject.SetActive(false);
     }
 
     public void selecioneTema(int i)
     {
         indexTema = i;
         PlayerPrefs.SetInt("idTema", indexTema);
+        txtAcertos.gameObject.SetActive(true);
+        txtAcertos.text = "acertos: " + PlayerPrefs.GetInt("acertos" + i.ToString()).ToString() + "    respondidas: " 
+            + PlayerPrefs.GetInt("numQuestoes" + indexTema.ToString()).ToString();
         txtNomeDoTema.text = temaAtual[indexTema];
         btnPlay.interactable = true;
     }
